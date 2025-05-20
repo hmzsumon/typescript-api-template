@@ -1,3 +1,4 @@
+import 'module-alias/register';
 import { User, IUser } from '@/models/user.model';
 
 export const createUserService = async (
